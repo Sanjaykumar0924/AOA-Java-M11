@@ -1,27 +1,53 @@
 
 # EX 1A Print All Numbers 
-## DATE:
+## DATE: 13.11.25
 ## AIM:
-To Write a Java program that takes an integer input N from the user and prints all the numbers from 1 to N, separated by spaces, on a single line..
+To Write a Java program that takes an integer input N from the user and prints all the numbers from 1 to N, separated by spaces, on a single line.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start
+
+2. Read an integer value N from the user.
+
+3. Set a counter variable i = 1.
+
+4. Repeat the following steps while i ≤ N : Print the value of i followed by a space, increment i by 1.
+
+5. Stop
 
 ## Program:
 ```
 /*
 Program to implement Reverse a String
-Developed by: 
-Register Number:  
+Developed by: Sanjay Kumar H
+Register Number: 212223040182
+
+import java.util.Scanner;
+public class PrintNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N <= 0) {
+            System.out.println("Invalid input. N must be greater than 0.");
+        } else {
+            for (int i = 1; i <= N; i++) {
+                System.out.print(i);
+                if (i < N) {
+                    System.out.print(" ");
+                }
+            }
+        }
+    }
+}
+
+
 */
 ```
 
 ## Output:
 
+<img width="460" height="296" alt="image" src="https://github.com/user-attachments/assets/439e7889-c06f-4bf9-a4af-45e36fc2d263" />
 
 
 ## Result:
