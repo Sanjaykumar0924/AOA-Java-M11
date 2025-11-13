@@ -7,13 +7,15 @@ To Write a Java program that takes an integer input N from the user and prints a
 ## Algorithm
 1. Start
 
-2. Read an integer value N from the user.
+2. Read integer N from the user.
 
-3. Set a counter variable i = 1.
+3. If N ≤ 0: Print "Invalid input. N must be greater than 0." and stop
 
-4. Repeat the following steps while i ≤ N : Print the value of i followed by a space, increment i by 1.
+4. Set counter i = 1
 
-5. Stop
+5. Repeat while i ≤ N: Print i if i < N, print a space and increment i by 1
+
+6. Stop
 
 ## Program:
 ```
